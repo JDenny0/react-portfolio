@@ -1,3 +1,9 @@
+:root {
+  --white: #fff;
+}
+.body {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +41,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+/**********************Navbar************************************/
+.logo {
+  width: 4.5rem;
+  margin-left: 1rem;
+}
+/**************************links********************************/
+.nav-link {
+  font-family: "Fira Sans Condensed" sans-serif;
+  font-weight: 100;
+}
+.nav ul li a {
+  font-family: "Fira Sans Condensed" sans-serif;
+}
+.navbar-nav a {
+  color: var(--white) !important;
+  text-transform: uppercase;
 }
